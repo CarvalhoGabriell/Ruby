@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="0" errors="0" time="0.014998" timestamp="2019-10-02T18:33:51-03:00" hostname="LAPTOP-N58T1B4B">
+<properties>
+<property name="seed" value="2432"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.001046"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Deve adicionar uma lista" file="./spec/avengers_spec.rb" time="0.005280"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter thor deve ser o primeiro da lista" file="./spec/avengers_spec.rb" time="0.001565"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Doctor strange deve ser o ultimo da lista" file="./spec/avengers_spec.rb" time="0.000063"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Deve conter o sobrenome " file="./spec/avengers_spec.rb" time="0.001468"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando o valor é positivo Então atualizar saldo " file="./spec/bank/saque_cc_spec.rb" time="0.000325"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando o saldo é zero Então exibe a mensagem " file="./spec/bank/saque_cc_spec.rb" time="0.000049"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando o saldo é zero E saldo final é zero" file="./spec/bank/saque_cc_spec.rb" time="0.000043"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando o saldo é insuficiente Então exibe mensagem " file="./spec/bank/saque_cc_spec.rb" time="0.000044"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando o saldo é insuficiente E o saldo permanece conforme o valor inicial" file="./spec/bank/saque_cc_spec.rb" time="0.000047"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando supera o valor de saque exibir mensagem " file="./spec/bank/saque_cc_spec.rb" time="0.000045"></testcase>
+<testcase classname="spec.bank.saque_cc_spec" name="Contacorrente saque  Quando supera o valor de saque E o saldo permanece conforme o valor inicial" file="./spec/bank/saque_cc_spec.rb" time="0.000040"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando o valor é positivo Então atualizar saldo " file="./spec/bank/saque_cp_spec.rb" time="0.000680"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando o saldo é zero  Então exibe a mensagem " file="./spec/bank/saque_cp_spec.rb" time="0.000049"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando o saldo é zero E saldo final é zero" file="./spec/bank/saque_cp_spec.rb" time="0.000042"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando o saldo é insuficiente Então exibe mensagem " file="./spec/bank/saque_cp_spec.rb" time="0.000043"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando o saldo é insuficiente E o saldo permanece conforme o valor inicial" file="./spec/bank/saque_cp_spec.rb" time="0.000082"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando supera o valor de saque  exibir mensagem " file="./spec/bank/saque_cp_spec.rb" time="0.000079"></testcase>
+<testcase classname="spec.bank.saque_cp_spec" name="Contapoupanca saque  Quando supera o valor de saque E o saldo permanece conforme o valor inicial" file="./spec/bank/saque_cp_spec.rb" time="0.000071"></testcase>
+<testcase classname="spec.exemplos_spec" name="suite rspec soma de valores" file="./spec/exemplos_spec.rb" time="0.000039"></testcase>
+</testsuite>

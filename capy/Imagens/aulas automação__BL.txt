@@ -1,0 +1,48 @@
+puts (imprimir dados)
+ 
+
+ativar a pasta RUBY - cd c:\qafullstack\ruby
+
+executar o programa - ruby hello.rb OU ruby tipos.rb
+
+variavel.class -mostra o tipo da variavel \ porem sem o .class imprimi os proprios valores adicionados na variavel.
+
+Recuperar dados ja digitados VARIAVEL = gets.chomp \ convertter para valores inteiros VARIAVEL = gets.chomp.to_i
+
+somas de duas STRING é uma concatenização
+
+LOOPS - (NUMERO).times do
+          
+         end
+
+CENARIO PARA SE APLICAR O TDD (DESENVOLVIMENTO GUIADO POR TESTES)
+
+_> Sendo um cliente que é correntista do Ninja Bank
+Posso sacar dinheiro
+Para que eu consiga comprar em lugares que não aceitam débito ou crédito.
+
+
+Para isto podemos usar a técnica do BDD (Behavior Driven Development) de Dan North, onde as palavras chave DADO QUE... QUANDO... ENTÃO... nos apoiam na criac¸ão de ricos cenários de teste.
+ EXEMPLO 
+: Cenário: Saque em conta corrente
+
+Dado que eu tenho R$ 1000 em minha conta corrente
+Quando faço um saque de R$ 200
+Então meu saldo final deve ser R$ 800
+ 
+
+EXEMPLO 2
+ : Cenário: Deu ruim não tenho saldo
+
+Dado que eu tenho R$ 0 em minha conta corrente
+Quando faço um saque de R$ 100
+Então vejo a mensagem "Saldo insuficiente para saque :("
+E meu saldo final deve ser R$ 0
+
+EXEMPLO 3
+: Cenário: Tenho saldo mas não o suficiente
+
+Dado que eu tenho R$ 500 em minha conta corrente
+Quando faço um saque de R$ 501
+Então vejo a mensagem "Saldo insuficiente para saque :("
+E meu saldo final deve ser R$ 500

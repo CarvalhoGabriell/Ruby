@@ -1,0 +1,47 @@
+
+CENARIO PARA SE APLICAR O TDD (DESENVOLVIMENTO GUIADO POR TESTES)
+
+ Sendo um cliente que é correntista do Ninja Bank
+Posso sacar dinheiro
+Para que eu consiga comprar em lugares que não aceitam débito ou crédito.
+
+ 
+ 
+ Cenário: Saque em conta corrente
+
+Dado que eu tenho R$ 1000 em minha conta corrente
+Quando faço um saque de R$ 200
+Então meu saldo final deve ser R$ 800
+
+ Cenário: Deu ruim não tenho saldo
+
+Dado que eu tenho R$ 0 em minha conta corrente
+Quando faço um saque de R$ 100
+Então vejo a mensagem "Saldo insuficiente para saque :("
+E meu saldo final deve ser R$ 0
+
+ Cenário: Tenho saldo mas não o suficiente
+
+Dado que eu tenho R$ 500 em minha conta corrente
+Quando faço um saque de R$ 501
+Então vejo a mensagem "Saldo insuficiente para saque :("
+E meu saldo final deve ser R$ 500
+
+
+
+
+
+
+
+
+
+
+CRITERIOS PARA MERCADO DE TECNOLOGIA 
+1 - Entender o que o mercado ta procurando
+2 - quais empresas estão utilizando? e quantas empresas estão utilizando?
+3 - quais os casos de uso dessa tecnologia
+4 - quem está por tras da ferramenta
+5 - a quantidade de vagas que estão disponiveis 
+6- qual o tamanho da comunidade e o ecossistema dessa tecnologia
+7- o quanto é possivel reaproveitar esse conheciemnto dessas tecnologias para multiplicar suas portunidades
+ 
